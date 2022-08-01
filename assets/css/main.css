@@ -325,6 +325,7 @@ ul.menu > li.sub:hover .subcontent {
 a.info-teacher > img {
     width: 100%;
     height: 200px;
+    border-radius: 50%;
 }
 
 /*COMMENTS*/
