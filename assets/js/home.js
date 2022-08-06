@@ -1,5 +1,14 @@
 $(document).ready(function() {
     
+    $(window).scroll(function() {
+        if($(this).scrollTop() > 100){
+            $("div.back-home").fadeIn();
+        }else{
+            $("div.back-home").fadeOut();
+        }
+    })
+
+
     $("div.back-home").click(function() {
         $("html, body").animate( {
             scrollTop: 0

@@ -65,7 +65,7 @@ ul.menu > li > a:hover {
 }
 
 #home {
-    margin-left: 90px;
+    margin-left: 10px;
     background-color: #0078b8;
     height: 100%;
 }
@@ -75,7 +75,7 @@ ul.menu > li:first-child {
 }
 
 .subcontent {
-    margin-top: 1px;
+    margin-top: 2px !important;
     display: none !important;
     position: absolute;
     text-align: left !important;
@@ -90,14 +90,22 @@ ul.menu > li.sub:hover .subcontent {
 }
 
 #nav_find {
-    margin: 10px 10px 10px 200px;
+    margin: 10px 10px 10px auto;
     border-left: none;
+}
+
+#nav_find input{
+    width: 300px;
+    border-radius: 5px;
+    padding-left: 10px;
+    height: 25px;
 }
 
 #nav_find button {
     background-color: #0082c8;
     border: 0;
     margin-left: 2px;
+    cursor: pointer;
 }
 /*SEARCH BOX*/
 
@@ -383,9 +391,10 @@ footer {
 .back-home {
     width: 50px;
     height: 50px;
-    position: absolute;
+    position: fixed;
     bottom: 50px;
-    right: 30px;
+    right: 10px;
+    display: none;
 }
 .back-home > img {
     width: 100%;
