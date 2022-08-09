@@ -1,0 +1,21 @@
+.payment {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 40px;
+}
+.color1{
+    color: red;
+}
+.img1 > img{
+    width: 15%;
+    /* border: 1px solid #333; */
+    padding: 10px;
+}
+.img1{
+    align-items: center;
+    border: 1px solid #333;
+}
+.img1 > p{
+    padding-left: 20px;
+}
