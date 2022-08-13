@@ -8,9 +8,9 @@
     color: red;
 }
 .img1 > img{
-    width: 15%;
-    /* border: 1px solid #333; */
+    max-width: 15%;
     padding: 10px;
+    height: auto;
 }
 .img1{
     align-items: center;
@@ -18,4 +18,28 @@
 }
 .img1 > p{
     padding-left: 20px;
+}
+
+.search-ani{
+    animation: search 1s infinite;
+}
+
+@keyframes search{
+    from{
+        color: black;
+    }
+    to{
+        color: orange;
+    }
+}
+
+body {
+    background: #fff;
+}
+
+@media all and(max-width: 1200px)
+{
+    body{
+        background: #e7e7e7;
+    }
 }

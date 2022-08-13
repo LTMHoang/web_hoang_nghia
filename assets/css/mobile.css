@@ -45,7 +45,7 @@ html {
 .header_mobile-logoname > h1 {
     width: 200px;
     text-transform: uppercase;
-    color: #fff;
+    color: #fff; 
     text-align: center;
     margin-top: 10px;
 }
