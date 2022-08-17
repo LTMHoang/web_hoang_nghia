@@ -8,11 +8,13 @@
     <link rel="stylesheet" href="./assets/css/main.css">
     <link rel="stylesheet" href="./assets/css/mobile.css" media="screen and (max-width: 500px)" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="shortcut icon" href="./assets/images/logo/Logo-DH-Mo-TPHCM-OU (1).webp">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="./assets/js/home.js"></script>
 </head>
 <body>
+    <a href="javascript:;"><div id="back-home"><img src="./assets/images/logo/icon-256x256.png" alt="up"></div></a>
     <header class="header">
         <div class="header_pc flex">
             <div class="header-left">
@@ -36,11 +38,12 @@
                 <div class="nav_mobile">
                     <label for="nav_mobile-input" class="nav_mobile-close"><i class="fa-solid fa-xmark"></i></label>
                     <ul class="nav_mobile-list">
-                        <li><a class="nav_mobile-link" href="#">Lịch khai giảng</a></li>
-                        <li><a class="nav_mobile-link" href="#">Chương trình đào tạo</a></li>
-                        <li><a class="nav_mobile-link" href="#">Dịch vụ</a></li>
-                        <li><a class="nav_mobile-link" href="#">Tin tức</a></li>
-                        <li><a class="nav_mobile-link" href="./assets/HDTT.html">Hướng dẫn thanh toán</a></li>
+                        <li><a class="nav_mobile-link" href="./index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
+                        <li><a class="nav_mobile-link" href="./assets/calendar.html">Lịch khai giảng</a></li>
+                        <li><a class="nav_mobile-link" href="./assets/edu.html">Chương trình đào tạo</a></li>
+                        <li><a class="nav_mobile-link" href="javascript:;">Dịch vụ</a></li>
+                        <li><a class="nav_mobile-link" href="javascript:;">Tin tức</a></li>
+                        <li><a class="nav_mobile-link" href="./assets/paymentGuide.html">Hướng dẫn thanh toán</a></li>
                         <li><a class="nav_mobile-link" href="./assets/contact.html">Liên hệ</a></li>
                     </ul>
                 </div>
@@ -58,30 +61,30 @@
         <ul class="flex menu">
             <li><a href="./index.html" id="home"><i class="fa-solid fa-house"></i></a></li>
             <li class="sub">
-                <a href="">Lịch khai giảng <i class="fa-solid fa-caret-down"></i></a>
+                <a href="./assets/calendar.html">Lịch khai giảng <i class="fa-solid fa-caret-down"></i></a>
                 <ul class="menu subcontent">
-                    <li><a href="">Thiết kế Website</a></li>
-                    <li><a href="">Lập trình di động</a></li>
-                    <li><a href="">Tin học văn phòng</a></li>
-                    <li><a href="">Tin học văn phòng (MOS)</a></li>
-                    <li><a href="">Mạng máy tính</a></li>
+                    <li><a href="./assets/calendar.html#thiet_ke_website">Thiết kế Website</a></li>
+                    <li><a href="./assets/calendar.html#lap_trinh_di_dong">Lập trình di động</a></li>
+                    <li><a href="./assets/calendar.html#tin_hoc_van_phong">Tin học văn phòng</a></li>
+                    <li><a href="./assets/calendar.html#tin_hoc_van_phong_mos">Tin học văn phòng (MOS)</a></li>
+                    <li><a href="./assets/calendar.html#mang_may_tinh">Mạng máy tính</a></li>
                 </ul>
             </li>
             <li class="sub">
-                <a href="./assets/edu1.html">Chương trình đào tạo <i class="fa-solid fa-caret-down"></i></a>
+                <a href="./assets/edu.html">Chương trình đào tạo <i class="fa-solid fa-caret-down"></i></a>
                 <ul class="menu subcontent">
-                    <li><a href="">Thiết kế Website</a></li>
-                    <li><a href="">Lập trình di động</a></li>
-                    <li><a href="">Tin học văn phòng</a></li>
-                    <li><a href="">Tin học văn phòng (MOS)</a></li>
-                    <li><a href="">Mạng máy tính</a></li>
+                    <li><a href="./assets/edu.html#thiet_ke_website">Thiết kế Website</a></li>
+                    <li><a href="./assets/edu.html#lap_trinh_di_dong">Lập trình di động</a></li>
+                    <li><a href="./assets/edu.html#tin_hoc_van_phong">Tin học văn phòng</a></li>
+                    <li><a href="./assets/edu.html#tin_hoc_van_phong_mos">Tin học văn phòng (MOS)</a></li>
+                    <li><a href="./assets/edu.html#mang_may_tinh">Mạng máy tính</a></li>
                 </ul>
             </li>
-            <li><a href="">Dịch vụ</a></li>
-            <li><a href="">Tin tức</a></li>
-            <li><a href="./assets/HDTT.html">Hướng dẫn thanh toán</a></li>
+            <li><a href="javascript:;">Dịch vụ</a></li>
+            <li><a href="javascript:;">Tin tức</a></li>
+            <li><a href="./assets/paymentGuide.html">Hướng dẫn thanh toán</a></li>
             <li><a href="./assets/contact.html">Liên hệ</a></li>
-            <li id="nav_find">
+            <li id="nav_find" class="flex">
                 <form action="">
                     <input type="text" placeholder="Tìm kiếm">
                     <button><i class="fa-solid fa-magnifying-glass"></i></button>
@@ -121,31 +124,31 @@
             <p class="head-title">Chương trình đào tạo</p>
             <div class="main flex">
                 <div class="subject">
-                    <a href="">
+                    <a href="./assets/edu.html#thiet_ke_website">
                         <p>Thiết kế Website</p>
                         <img src="./assets/images/educationProgram/website.png" alt="website">
                     </a>
                 </div>
                     <div class="subject">
-                        <a href="">
+                        <a href="./assets/edu.html#lap_trinh_di_dong">
                             <p>Lập trình di động</p>
                             <img src="./assets/images/educationProgram/mobile.png" alt="mobile">
                         </a>
                 </div>
                     <div class="subject">
-                        <a href="">
+                        <a href="./assets/edu.html#tin_hoc_van_phong">
                             <p>Tin học văn phòng</p>
                             <img src="./assets/images/educationProgram/office.png" alt="office">
                         </a>
                 </div>
                     <div class="subject">
-                        <a href="">
+                        <a href="./assets/edu.html#tin_hoc_van_phong_mos">
                             <p>Tin học văn phòng (MOS)</p>
                             <img src="./assets/images/educationProgram/mos.webp" alt="mos">
                         </a>
                 </div>
                     <div class="subject">
-                        <a href="">
+                        <a href="./assets/edu.html#mang_may_tinh">
                             <p>Mạng máy tính</p>
                             <img src="./assets/images/educationProgram/network.png" alt="network">
                         </a>
@@ -158,25 +161,25 @@
             <p class="head-title">Tiện ích hỗ trợ</p>
             <div class="main1 flex">
                 <div class="subject">
-                    <a href="">
+                    <a href="javascript:;">
                         <img src="./assets/images/utilities/document.jpg" alt="tailieu">
                         <p>Kho tài liệu</p>
                     </a>
                 </div>
                 <div class="subject">
-                    <a href="">
+                    <a href="javascript:;">
                         <img src="./assets/images/utilities/search.jpg" alt="tracuu">
                         <p>Tra cứu điểm thi</p>
                     </a>
                 </div>
                 <div class="subject">
-                    <a href="">
+                    <a href="javascript:;">
                         <img src="./assets/images/utilities/online.jpg" alt="online">
                         <p>Lớp học trực tuyến</p>
                     </a>
                 </div>
                 <div class="subject">
-                    <a href="">
+                    <a href="javascript:;">
                         <img src="./assets/images/utilities/certificate.jpg" alt="chungchi">
                         <p>Chứng chỉ</p>
                     </a>
@@ -187,24 +190,24 @@
         <div class="news">
             <p class="head-title">Tin tức</p>
             <div class="main2 flex">
-                <a href="#" class="main_notification">
+                <a href="javascript:;" class="main_notification">
                     <img src="./assets/images/notification/CNTT.jpg" alt="content">
                     <p>Giới thiệu khoa phụ trách</p>
                 </a>
                 <div class="notifications flex">
-                    <a href="#" class="notification">
+                    <a href="javascript:;" class="notification">
                         <img src="./assets/images/notification/CNTT.jpg" alt="content">
                         <p>Thông báo</p>
                     </a>
-                    <a href="#" class="notification">
+                    <a href="javascript:;" class="notification">
                         <img src="./assets/images/notification/CNTT.jpg" alt="content">
                         <p>Thông báo</p>
                     </a>
-                    <a href="#" class="notification">
+                    <a href="javascript:;" class="notification">
                         <img src="./assets/images/notification/CNTT.jpg" alt="content">
                         <p>Thông báo</p>
                     </a>
-                    <a href="#" class="notification">
+                    <a href="javascript:;" class="notification">
                         <img src="./assets/images/notification/CNTT.jpg" alt="content">
                         <p>Thông báo</p>
                     </a>
@@ -213,32 +216,32 @@
 
             <div class="main2_mobile">
                 <div class="mobile-main_notification">
-                    <a href="#">
+                    <a href="javascript:;">
                         <img src="./assets/images/notification/CNTT.jpg" alt="content">
                         <p>Giới thiệu khoa phụ trách</p>
                     </a>
                 </div>
                 <div class="mobile-notifications flex">
                     <div class="notification">
-                        <a href="#">
+                        <a href="javascript:;">
                             <img src="./assets/images/notification/CNTT.jpg" alt="content">
                             <p>Thông báo</p>
                         </a>
                     </div>
                     <div class="notification">
-                        <a href="#">
+                        <a href="javascript:;">
                             <img src="./assets/images/notification/CNTT.jpg" alt="content">
                             <p>Thông báo</p>
                         </a>
                     </div>
                     <div class="notification">
-                        <a href="#">
+                        <a href="javascript:;">
                             <img src="./assets/images/notification/CNTT.jpg" alt="content">
                             <p>Thông báo</p>
                         </a>
                     </div>
                     <div class="notification">
-                        <a href="#">
+                        <a href="javascript:;">
                             <img src="./assets/images/notification/CNTT.jpg" alt="content">
                             <p>Thông báo</p>
                         </a>
@@ -269,12 +272,12 @@
 
             <div class="main3_mobile">
                 <div class="teacher_slider-outer">
-                    <div class="teacher_slider-inner">
-                        <img src="./assets/images/infomation/teacher(male).webp" alt="tea1" class="teacher_active">
-                        <img src="./assets/images/infomation/teacher(female).jpg" alt="tea2">
-                        <img src="./assets/images/infomation/teacher(male).webp" alt="tea3">
-                        <img src="./assets/images/infomation/teacher(female).jpg" alt="tea4">
-                        <img src="./assets/images/infomation/teacher(male).webp" alt="tea5">
+                    <div class="teacher_slider-inner flex">
+                        <a href="http://it.ou.edu.vn/pages/view/3-danh-sach-giang-vien" class="teacher_active"><img src="./assets/images/infomation/teacher(male).webp" alt="tea1"></a>
+                        <a href="http://it.ou.edu.vn/pages/view/3-danh-sach-giang-vien"><img src="./assets/images/infomation/teacher(female).jpg" alt="tea2"></a>
+                        <a href="http://it.ou.edu.vn/pages/view/3-danh-sach-giang-vien"><img src="./assets/images/infomation/teacher(male).webp" alt="tea3"></a>
+                        <a href="http://it.ou.edu.vn/pages/view/3-danh-sach-giang-vien"><img src="./assets/images/infomation/teacher(female).jpg" alt="tea4"></a>
+                        <a href="http://it.ou.edu.vn/pages/view/3-danh-sach-giang-vien"><img src="./assets/images/infomation/teacher(male).webp" alt="tea5"></a>
                     </div>
                     <div class="teacher_prev"><i class="fa-solid fa-angles-left"></i></div>
                     <div class="teacher_next"><i class="fa-solid fa-angles-right"></i></div>
@@ -286,10 +289,21 @@
             <p class="head-title">Nhận xét của học viên</p>
             <div class="slider-outer">
                 <div class="slider-inner">
-                    <img src="./assets/images/comments/comment_1.webp" alt="com1" class="active">
-                    <img src="./assets/images/comments/comment_2.webp" alt="com2">
-                    <img src="./assets/images/comments/comment_3.webp" alt="com3">
-                    <img src="./assets/images/comments/comment_4.webp" alt="com4">
+                    <a href="javascript:;" class="active"><img src="./assets/images/comments/comment_pc_1.jpg" alt="com1"></a>
+                    <a href="javascript:;"><img src="./assets/images/comments/comment_pc_2.jpg" alt="com2"></a>
+                    <a href="javascript:;"><img src="./assets/images/comments/comment_pc_3.jpg" alt="com3"></a>
+                    <a href="javascript:;"><img src="./assets/images/comments/comment_pc_4.jpg" alt="com4"></a>
+                </div>
+                <div class="prev"><i class="fa-solid fa-angles-left"></i></div>
+                <div class="next"><i class="fa-solid fa-angles-right"></i></div>
+            </div>
+
+            <div class="slider-outer_mobile">
+                <div class="slider-inner flex">
+                    <a href="javascript:;" class="active"><img src="./assets/images/comments/comment_mobile_2.png" alt="com1"></a>
+                    <a href="javascript:;"><img src="./assets/images/comments/comment_mobile_1.png" alt="com2"></a>
+                    <a href="javascript:;"><img src="./assets/images/comments/comment_mobile_3.png" alt="com3"></a>
+                    <a href="javascript:;"><img src="./assets/images/comments/comment_mobile_4.png" alt="com4"></a>
                 </div>
                 <div class="prev"><i class="fa-solid fa-angles-left"></i></div>
                 <div class="next"><i class="fa-solid fa-angles-right"></i></div>
@@ -363,8 +377,6 @@
         <div class="footer_copyright">
             <p>&copy; 2022 đại học mở - minh hoàng & kiến nghĩa</p>
         </div>
-
-        <a href="javascript:;"><div class="back-home"><img src="./assets/images/logo/icon-256x256.png" alt="up"></div></a>
     </footer>
 </body>
 </html>
