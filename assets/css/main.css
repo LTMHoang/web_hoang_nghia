@@ -95,10 +95,11 @@ ul.menu>li:first-child {
 }
 
 .subcontent {
-    margin-top: 2px;
+    margin-top: 1px;
     display: none !important;
     position: absolute;
     text-align: left !important;
+    animation: arriveSub 0.7s 1;
 }
 
 .subcontent>li {
@@ -127,6 +128,18 @@ ul.menu>li.sub:hover .subcontent {
     border: 0;
     margin-left: 2px;
     cursor: pointer;
+}
+
+@keyframes arriveSub {
+    from {
+        transform: translateY(-10%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 /*SEARCH BOX*/
@@ -276,67 +289,96 @@ ul.menu>li.sub:hover .subcontent {
 
 /*NEWS*/
 
-.main2_mobile {
-    display: none;
+.news a {
+    display: block;
+    text-decoration: none;
 }
 
-.main2 {
-    width: 80%;
-    height: 450px;
-    margin: 0 auto;
-    justify-content: space-between;
+.notifications p {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    text-align: center;
 }
 
-.main2 img {
+.news img {
     width: 100%;
     height: 100%;
-    transition: transform 2s ease;
-}
-
-.main_notification {
-    width: 49%;
-    height: 100%;
-    position: relative;
-    overflow: hidden;
 }
 
 .notifications {
-    width: 46%;
-    height: 100%;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    width: 80%;
+    margin: 10px auto;
+    justify-content: space-around;
+}
+
+.main_notification, .clone_notification {
+    justify-content: space-around;
     align-content: space-between;
+    flex-wrap: wrap;
+    width: 49%;
 }
 
 .notification {
-    width: 45%;
-    height: 45%;
-    position: relative;
-    overflow: hidden;
+    width: 46%;
 }
 
-.main2 p {
+.main_notification, .notification {
+    position: relative;
+}
+
+.main_notification > div, .notification > div {
     width: 100%;
-    height: 50px;
-    display: block;
-    position: absolute;
-    background-color: rgba(153, 153, 153, 0.5);
-    bottom: 0;
-    left: 0;
-    right: 0;
-    font-size: 25px;
-    text-align: center;
-    color: #333;
     padding: 10px;
 }
 
-.main2 a:hover img {
-    transform: scale(1.2);
+.main_notification > div > div, .notification > div > div {
+    position: relative;
 }
 
-.main2 a:hover {
-    border: 3px solid #ff9900;
+.main_notification > div::before,
+.notification > div::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    height: 0%;
+    border-left: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    box-sizing: border-box;
+    transition: all 0.8s ease;
 }
+
+.main_notification > div::after,
+.notification > div::after {
+    position: absolute;
+    content: "";
+    right: 0;
+    top: 0;
+    width: 0%;
+    height: 0%;
+    border-right: 3px solid transparent;
+    border-top: 3px solid transparent;
+    box-sizing: border-box;
+    transition: all 0.8s ease;
+}
+
+.main_notification:hover div::before, .main_notification:hover div::after,
+.notification:hover div::before, .notification:hover div::after {
+    width: 100%;
+    height: 100%;
+    border-color: #ff9900;
+}
+
+
+
+
 
 
 /*TEACHER GROUP*/
@@ -864,6 +906,16 @@ section.edu a {
     padding: 10px;
 }
 
+.course_detail-new {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 10px !important;
+    font-size: 30px !important;
+    animation: newCourse 0.5s infinite;
+    font-style: italic !important;
+}
+
 .course_infomation {
     margin: 50px 0;
 }
@@ -888,6 +940,16 @@ section.edu a {
 
     to {
         transform: scale(1);
+    }
+}
+
+@keyframes newCourse {
+    from {
+        color: #ffff66;
+    }
+
+    to {
+        color: #ff0000;
     }
 }
 
@@ -925,7 +987,6 @@ section.mobile {
 }
 
 .cal_infomation {
-    border: 2px solid #333;
     padding: 1rem;
 }
 

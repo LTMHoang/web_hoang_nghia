@@ -242,52 +242,26 @@ html {
 
 /*NEWS*/
 
-.main2 {
-    display: none;
-}
-
-.main2_mobile {
-    margin: 0 auto;
+.notifications {
     display: block;
-    width: 90%;
+    width: 95%;
 }
 
-.main2_mobile img {
-    width: 100%;
-    height: 100%;
-}
-
-.main2_mobile p {
-    position: absolute;
-    bottom: 0;
+.notifications p {
     font-size: 20px;
-    display: block;
-    width: 100%;
-    color: #333;
-    padding: 5px;
-    text-align: center;
-    background-color: rgba(153, 153, 153, 0.5);
 }
 
-.mobile-main_notification {
+.main_notification, .clone_notification {
     width: 100%;
-    height: 300px;
-    position: relative;
-}
-
-.mobile-notifications {
-    width: 100%;
-    flex-wrap: wrap;
-    align-content: space-between;
     justify-content: space-between;
 }
 
 .notification {
-    width: 49%;
-    height: 150px;
-    margin-top: 10px;
-    position: relative;
+    width: 50%;
 }
+
+
+
 
 /*TEACHER GROUP - COMMMENTS*/
 
@@ -542,6 +516,10 @@ section.mobile {
     left: 0;
     width: 100%;
     height: 550px;
+}
+
+.calendar_accept[disabled] {
+    display: none;
 }
 
 
