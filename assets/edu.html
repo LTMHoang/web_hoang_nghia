@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chương trình đào tạo</title>
     <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/tablet.css" media="screen and (max-width: 1000px)">   
     <link rel="stylesheet" href="../assets/css/mobile.css" media="screen and (max-width: 500px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -25,6 +26,37 @@
             </div>    
         </div>
 
+        <div class="header_tablet flex">
+            <div class="header_tablet-logoname flex">
+                <a href="../index.html"><img src="../assets/images/logo/Logo (1).png" alt="OU"></a>
+                <h1>trung tâm <br/> tin học</h1>
+            </div>
+
+            <div class="header_tablet-navigation flex">
+                <label class="nav_bars-btn" for="nav_tablet-input"><i class="fa-solid fa-bars"></i></label>
+                <input hidden type="checkbox" name="" class="nav_input" id="nav_tablet-input">
+                <label for="nav_tablet-input" class="nav_overplay"></label>
+                <div class="nav_tablet">
+                    <label for="nav_tablet-input" class="nav_tablet-close"><i class="fa-solid fa-xmark"></i></label>
+                    <ul class="nav_tablet-list">
+                        <li><a class="nav_tablet-link" href="../index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/calendar.html">Lịch khai giảng</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/edu.html">Chương trình đào tạo</a></li>
+                        <li><a class="nav_tablet-link" href="javascript:;">Dịch vụ</a></li>
+                        <li><a class="nav_tablet-link" href="javascript:;">Tin tức</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/paymentGuide.html">Hướng dẫn thanh toán</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="header_tablet-search">
+                    <form action="">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <div class="header_mobile flex">
             <div class="header_mobile-logoname flex">
                 <a href="../index.html"><img src="../assets/images/logo/logo-white.png" alt="OU"></a>
@@ -39,12 +71,12 @@
                     <label for="nav_mobile-input" class="nav_mobile-close"><i class="fa-solid fa-xmark"></i></label>
                     <ul class="nav_mobile-list">
                         <li><a class="nav_mobile-link" href="../index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
-                        <li><a class="nav_mobile-link" href="./calendar.html">Lịch khai giảng</a></li>
-                        <li><a class="nav_mobile-link" href="./edu.html">Chương trình đào tạo</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/calendar.html">Lịch khai giảng</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/edu.html">Chương trình đào tạo</a></li>
                         <li><a class="nav_mobile-link" href="javascript:;">Dịch vụ</a></li>
                         <li><a class="nav_mobile-link" href="javascript:;">Tin tức</a></li>
-                        <li><a class="nav_mobile-link" href="./paymentGuide.html">Hướng dẫn thanh toán</a></li>
-                        <li><a class="nav_mobile-link" href="./contact.html">Liên hệ</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/paymentGuide.html">Hướng dẫn thanh toán</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/contact.html">Liên hệ</a></li>
                     </ul>
                 </div>
                 <div class="header_mobile-search">
@@ -52,7 +84,7 @@
                         <input type="text" placeholder="Tìm kiếm">
                         <button><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
-            </div>
+                </div>
             </div>
         </div>
     </header>
@@ -103,7 +135,7 @@
                     Hãy trang bị những kiến thức <span class="name-subject">thiết kế website</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                 <div class="course_list flex">
-                    <div>Chương trình dài hạn</div>
+                    <div class="addBorder">Chương trình dài hạn</div>
                     <div>Chương trình ngắn hạn</div>
                     <div>Chuyên viên Đồ họa & Web</div>
                 </div>
@@ -166,7 +198,7 @@
                     </div>
                 </div>
                 <div class="course_infomation">
-                    <div id="ky_thuat_vien_thiet_ke_website" class="edu_active">
+                    <div id="ky_thuat_vien_thiet_ke_website">
                         <p class="course_name">kỹ thuật viên thiết kế website</p>
                         <div class="course_detail flex">
                             <img src="./images/educationProgram/Web.png" alt="ky_thuat_vien">
@@ -256,7 +288,7 @@
                     Hãy trang bị những kiến thức <span class="name-subject">lập trình di động</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                 <div class="course_list flex">
-                    <div>Các lớp lập trình viên di động</div>
+                    <div class="addBorder">Các lớp lập trình viên di động</div>
                     <div>Các chuyên đề khác</div>
                 </div>
                 <div class="course_subjects">
@@ -296,7 +328,7 @@
                     </div>
                 </div>
                 <div class="course_infomation">
-                    <div id="lap_trinh_android"  class="edu_active">
+                    <div id="lap_trinh_android">
                         <p class="course_name">lập trình android</p>
                         <div class="course_detail flex">
                             <img src="./images/educationProgram/code_android.jpg" alt="android">
@@ -359,7 +391,7 @@
                     Hãy trang bị những kiến thức <span class="name-subject">tin học văn phòng</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                 <div class="course_list flex">
-                    <div>Tin học văn phòng</div>
+                    <div class="addBorder">Tin học văn phòng</div>
                     <div>Chuyên đề Excel</div>
                 </div>
                 <div class="course_subjects">
@@ -408,7 +440,7 @@
                     </div>
                 </div>
                 <div class="course_infomation">
-                    <div id="ung_dung_cntt_co_ban"  class="edu_active">
+                    <div id="ung_dung_cntt_co_ban">
                         <p class="course_name">ứng dụng cntt cơ bản</p>
                         <div class="course_detail flex">
                             <img src="./images/educationProgram/Office1.png" alt="ung_dung_cntt_co_ban">
@@ -475,7 +507,7 @@
                     Hãy trang bị những kiến thức <span class="name-subject">tin học văn phòng chuẩn quốc tế mos</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                 <div class="course_list flex">
-                    <div>Tin học văn phòng chuẩn Quốc tế (MOS)</div>
+                    <div class="addBorder">Tin học văn phòng chuẩn Quốc tế (MOS)</div>
                 </div>
                 <div class="course_subjects">
                     <div  class="edu_active">
@@ -510,7 +542,7 @@
                     </div>
                 </div>
                 <div class="course_infomation">
-                    <div id="word_mos"  class="edu_active">
+                    <div id="word_mos">
                         <p class="course_name">MOS WORD</p>
                         <div class="course_detail flex">
                             <img src="./images/educationProgram/word.png" alt="word_mos">
@@ -565,7 +597,7 @@
                     Hãy trang bị những kiến thức <span class="name-subject">mạng máy tính</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                  <div class="course_list flex">
-                    <div>Chuyên viên Quản trị và An ninh mạng</div>
+                    <div class="addBorder">Chuyên viên Quản trị và An ninh mạng</div>
                 </div>
                 <div class="course_subjects">
                     <div  class="edu_active">
@@ -609,7 +641,7 @@
                     </div>
                 </div>
                 <div class="course_infomation">
-                    <div id="nhap_mon_quan_tri_mang_va_an_ninh_mang"  class="edu_active">
+                    <div id="nhap_mon_quan_tri_mang_va_an_ninh_mang">
                         <p class="course_name">Nhập môn quản trị mạng và An ninh mạng</p>
                         <div class="course_detail flex">
                             <img src="./images/educationProgram/Net.jpg" alt="nhap_mon">

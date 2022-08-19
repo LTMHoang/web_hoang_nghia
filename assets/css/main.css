@@ -33,11 +33,15 @@ html {
     width: 100%;
 }
 
+.header_tablet, .header_mobile {
+    display: none;
+}
+
 /*HEADER*/
 
 .header_pc {
     width: 100%;
-    height: 100px;
+    height: 15vh;
     background-color: var(--backColor);
     justify-content: space-around;
     align-items: center;
@@ -376,11 +380,6 @@ ul.menu>li.sub:hover .subcontent {
     border-color: #ff9900;
 }
 
-
-
-
-
-
 /*TEACHER GROUP*/
 
 .main3_mobile {
@@ -568,6 +567,7 @@ footer {
 #detail>a>div:last-child {
     font-size: var(--sizeAll);
     width: 80%;
+    margin-left: 3px;
 }
 
 #detail>a:hover {
@@ -1053,7 +1053,6 @@ section.mobile {
     padding: 10px;
     width: 100%;
     border-radius: 10px;
-    border: 2px solid #333;
 }
 
 .calendar_accept {

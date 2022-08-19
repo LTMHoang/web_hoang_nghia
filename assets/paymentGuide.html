@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hướng dẫn thanh toán</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="../assets/css/tablet.css" media="screen and (max-width: 1000px)">   
     <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 500px)">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -25,6 +26,37 @@
             </div>    
         </div>
 
+        <div class="header_tablet flex">
+            <div class="header_tablet-logoname flex">
+                <a href="../index.html"><img src="../assets/images/logo/Logo (1).png" alt="OU"></a>
+                <h1>trung tâm <br/> tin học</h1>
+            </div>
+
+            <div class="header_tablet-navigation flex">
+                <label class="nav_bars-btn" for="nav_tablet-input"><i class="fa-solid fa-bars"></i></label>
+                <input hidden type="checkbox" name="" class="nav_input" id="nav_tablet-input">
+                <label for="nav_tablet-input" class="nav_overplay"></label>
+                <div class="nav_tablet">
+                    <label for="nav_tablet-input" class="nav_tablet-close"><i class="fa-solid fa-xmark"></i></label>
+                    <ul class="nav_tablet-list">
+                        <li><a class="nav_tablet-link" href="../index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/calendar.html">Lịch khai giảng</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/edu.html">Chương trình đào tạo</a></li>
+                        <li><a class="nav_tablet-link" href="javascript:;">Dịch vụ</a></li>
+                        <li><a class="nav_tablet-link" href="javascript:;">Tin tức</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/paymentGuide.html">Hướng dẫn thanh toán</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/contact.html">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div class="header_tablet-search">
+                    <form action="">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <div class="header_mobile flex">
             <div class="header_mobile-logoname flex">
                 <a href="../index.html"><img src="../assets/images/logo/logo-white.png" alt="OU"></a>
@@ -39,12 +71,12 @@
                     <label for="nav_mobile-input" class="nav_mobile-close"><i class="fa-solid fa-xmark"></i></label>
                     <ul class="nav_mobile-list">
                         <li><a class="nav_mobile-link" href="../index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
-                        <li><a class="nav_mobile-link" href="./calendar.html">Lịch khai giảng</a></li>
-                        <li><a class="nav_mobile-link" href="./edu.html">Chương trình đào tạo</a></li>
-                        <li><a class="nav_mobile-link" href="javascript:;javascript:;">Dịch vụ</a></li>
-                        <li><a class="nav_mobile-link" href="javascript:;javascript:;">Tin tức</a></li>
-                        <li><a class="nav_mobile-link" href="./paymentGuide.html">Hướng dẫn thanh toán</a></li>
-                        <li><a class="nav_mobile-link" href="./contact.html">Liên hệ</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/calendar.html">Lịch khai giảng</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/edu.html">Chương trình đào tạo</a></li>
+                        <li><a class="nav_mobile-link" href="javascript:;">Dịch vụ</a></li>
+                        <li><a class="nav_mobile-link" href="javascript:;">Tin tức</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/paymentGuide.html">Hướng dẫn thanh toán</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/contact.html">Liên hệ</a></li>
                     </ul>
                 </div>
                 <div class="header_mobile-search">
@@ -52,7 +84,7 @@
                         <input type="text" placeholder="Tìm kiếm">
                         <button><i class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
-            </div>
+                </div>
             </div>
         </div>
     </header>

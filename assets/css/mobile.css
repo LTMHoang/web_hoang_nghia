@@ -28,6 +28,12 @@ html {
     display: none;
 }
 
+/*HEADER TABLET*/
+
+.header_tablet {
+    display: none;
+}
+
 /*HEADER MOBILE*/
 
 .header_mobile {
@@ -355,6 +361,10 @@ html {
 .footer_contact {
     width: 90%;
     display: block;
+}
+
+.footer_contact-info {
+    width: 100%;
 }
 
 .footer_contact-info>img {
