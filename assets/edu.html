@@ -13,6 +13,7 @@
     <link rel="shortcut icon" href="./images/logo/Logo-DH-Mo-TPHCM-OU (1).webp">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script type="text/javascript" src="./js/home.js"></script>
+    <script type="text/javascript" src="./js/edu.js"></script>
 </head>
 <body>
     <a href="javascript:;"><div id="back-home"><img src="./images/logo/icon-256x256.png" alt="up"></div></a>
@@ -42,7 +43,7 @@
                         <li><a class="nav_tablet-link" href="../index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
                         <li><a class="nav_tablet-link" href="../assets/calendar.html">Lịch khai giảng</a></li>
                         <li><a class="nav_tablet-link" href="../assets/edu.html">Chương trình đào tạo</a></li>
-                        <li><a class="nav_tablet-link" href="javascript:;">Dịch vụ</a></li>
+                        <li><a class="nav_tablet-link" href="../assets/services.html">Dịch vụ</a></li>
                         <li><a class="nav_tablet-link" href="javascript:;">Tin tức</a></li>
                         <li><a class="nav_tablet-link" href="../assets/paymentGuide.html">Hướng dẫn thanh toán</a></li>
                         <li><a class="nav_tablet-link" href="../assets/contact.html">Liên hệ</a></li>
@@ -73,7 +74,7 @@
                         <li><a class="nav_mobile-link" href="../index.html"><i class="fa-solid fa-house"></i> Trang chủ</a></li>
                         <li><a class="nav_mobile-link" href="../assets/calendar.html">Lịch khai giảng</a></li>
                         <li><a class="nav_mobile-link" href="../assets/edu.html">Chương trình đào tạo</a></li>
-                        <li><a class="nav_mobile-link" href="javascript:;">Dịch vụ</a></li>
+                        <li><a class="nav_mobile-link" href="../assets/services.html">Dịch vụ</a></li>
                         <li><a class="nav_mobile-link" href="javascript:;">Tin tức</a></li>
                         <li><a class="nav_mobile-link" href="../assets/paymentGuide.html">Hướng dẫn thanh toán</a></li>
                         <li><a class="nav_mobile-link" href="../assets/contact.html">Liên hệ</a></li>
@@ -112,7 +113,7 @@
                     <li><a href="./edu.html#mang_may_tinh">Mạng máy tính</a></li>
                 </ul>
             </li>
-            <li><a href="javascript:;">Dịch vụ</a></li>
+            <li><a href="./services.html">Dịch vụ</a></li>
             <li><a href="javascript:;">Tin tức</a></li>
             <li><a href="./paymentGuide.html">Hướng dẫn thanh toán</a></li>
             <li><a href="./contact.html">Liên hệ</a></li>
@@ -135,14 +136,14 @@
                     Hãy trang bị những kiến thức <span class="name-subject">thiết kế website</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                 <div class="course_list flex">
-                    <div class="addBorder">Chương trình dài hạn</div>
-                    <div>Chương trình ngắn hạn</div>
-                    <div>Chuyên viên Đồ họa & Web</div>
+                    <div class="addBorder" rel="1">Chương trình dài hạn</div>
+                    <div rel="2">Chương trình ngắn hạn</div>
+                    <div rel="3">Chuyên viên Đồ họa & Web</div>
                 </div>
                 <div class="course_subjects">
                     <div class="edu_active">
                         <div id="chuong_trinh_dai_han" class="flex">
-                            <div>
+                            <div rel="1">
                                 <a href="#ky_thuat_vien_thiet_ke_website">
                                     <div>
                                         <img src="./images/educationProgram/Web.png" alt="ky_thuat_vien">
@@ -155,7 +156,7 @@
 
                     <div>
                         <div id="chuong_trinh_ngan_han" class="flex">
-                            <div>
+                            <div rel="2">
                                 <a href="#Thiet_ke_web">
                                     <div>
                                         <img src="./images/educationProgram/design_web.png" alt="thiet_ke">
@@ -164,7 +165,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="3">
                                 <a href="#Thiet_ke_giao_dien_website">
                                     <div>
                                         <img src="./images/educationProgram/design_display.jpg" alt="thiet_ke_giao_dien">
@@ -173,7 +174,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="4">
                                 <a href="#app_mobile_design">
                                     <div>
                                         <img src="./images/educationProgram/app_mobile.jpg" alt="app">
@@ -186,7 +187,7 @@
 
                     <div>
                         <div id="chuyen_vien_do_hoa_va_web" class="flex">
-                            <div>
+                            <div rel="5">
                                 <a href="#chuyen_vien_thiet_ke_do_hoa_va_website">
                                     <div>
                                         <img src="./images/educationProgram/expert.jpg" alt="chuyen_vien">
@@ -288,13 +289,13 @@
                     Hãy trang bị những kiến thức <span class="name-subject">lập trình di động</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                 <div class="course_list flex">
-                    <div class="addBorder">Các lớp lập trình viên di động</div>
-                    <div>Các chuyên đề khác</div>
+                    <div class="addBorder" rel="1">Các lớp lập trình viên di động</div>
+                    <div rel="2">Các chuyên đề khác</div>
                 </div>
                 <div class="course_subjects">
                     <div class="edu_active">
                         <div id="cac_lop_lap_trinh_vien_di_dong" class="flex">
-                            <div>
+                            <div rel="1">
                                 <a href="#lap_trinh_android">
                                     <div>
                                         <img src="./images/educationProgram/code_android.jpg" alt="android">
@@ -303,7 +304,7 @@
                                 </a>
                             </div>
 
-                             <div>
+                             <div rel="2">
                                 <a href="#lap_trinh_ios">
                                     <div>
                                         <img src="./images/educationProgram/code_ios.png" alt="ios">
@@ -316,7 +317,7 @@
 
                     <div>
                         <div id="cac_chuyen_de_khac" class="flex">
-                             <div>
+                             <div rel="3">
                                 <a href="#react_navtive">
                                     <div>
                                         <img src="./images/educationProgram/react_navtive.jpg" alt="reactNative">
@@ -391,13 +392,13 @@
                     Hãy trang bị những kiến thức <span class="name-subject">tin học văn phòng</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                 <div class="course_list flex">
-                    <div class="addBorder">Tin học văn phòng</div>
-                    <div>Chuyên đề Excel</div>
+                    <div class="addBorder" rel="1">Tin học văn phòng</div>
+                    <div rel="2">Chuyên đề Excel</div>
                 </div>
                 <div class="course_subjects">
                     <div class="edu_active">
                         <div id="tin_hoc" class="flex">
-                            <div>
+                            <div rel="1">
                                 <a href="#ung_dung_cntt_co_ban">
                                     <div>
                                         <img src="./images/educationProgram/Office1.png" alt="ung_dung_cntt_co_ban">
@@ -406,7 +407,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="2">
                                 <a href="#ung_dung_cntt_nang_cao">
                                     <div>
                                         <img src="./images/educationProgram/cntt_hard.jpg" alt="ung_dung_cntt_nang_cao">
@@ -415,7 +416,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="3">
                                 <a href="#luyen_thi_nhan_chung_chi">
                                     <div>
                                         <img src="./images/educationProgram/train.jpg" alt="luyen_thi_nhan_chung_chi">
@@ -428,7 +429,7 @@
 
                     <div>
                         <div id="chuyen_de" class="flex">
-                            <div>
+                            <div rel="4">
                                 <a href="#chuyen_de_excel">
                                     <div>
                                         <img src="./images/educationProgram/excel.jpeg" alt="chuyen_de_excel">
@@ -507,12 +508,12 @@
                     Hãy trang bị những kiến thức <span class="name-subject">tin học văn phòng chuẩn quốc tế mos</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                 <div class="course_list flex">
-                    <div class="addBorder">Tin học văn phòng chuẩn Quốc tế (MOS)</div>
+                    <div class="addBorder" rel="1"1>Tin học văn phòng chuẩn Quốc tế (MOS)</div>
                 </div>
                 <div class="course_subjects">
                     <div  class="edu_active">
                         <div id="tin_hoc_vp_mos" class="flex">
-                            <div>
+                            <div rel="1">
                                 <a href="#word_mos">
                                     <div>
                                         <img src="./images/educationProgram/word.png" alt="word_mos">
@@ -521,7 +522,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="2">
                                 <a href="#excel_mos">
                                     <div>
                                         <img src="./images/educationProgram/excel.jpeg" alt="excel_mos">
@@ -530,7 +531,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="3">
                                 <a href="#powerpoint_mos">
                                     <div>
                                         <img src="./images/educationProgram/powerpoint.jpg" alt="powerpoint_mos">
@@ -597,12 +598,12 @@
                     Hãy trang bị những kiến thức <span class="name-subject">mạng máy tính</span> bổ ích cho bản thân ngay hôm nay!
                 </p>
                  <div class="course_list flex">
-                    <div class="addBorder">Chuyên viên Quản trị và An ninh mạng</div>
+                    <div class="addBorder" rel="1">Chuyên viên Quản trị và An ninh mạng</div>
                 </div>
                 <div class="course_subjects">
                     <div  class="edu_active">
                         <div id="mang_mt" class="flex">
-                            <div>
+                            <div rel="1">
                                 <a href="#nhap_mon_quan_tri_mang_va_an_ninh_mang">
                                     <div>
                                         <img src="./images/educationProgram/Net.jpg" alt="nhap_mon">
@@ -611,7 +612,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="2">
                                 <a href="#quan_tri_ha_tang">
                                     <div>
                                         <img src="./images/educationProgram/NW2.webp" alt="quan_tri">
@@ -620,7 +621,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="3">
                                 <a href="#quan_tri_he_thong_mang">
                                     <div>
                                         <img src="./images/educationProgram/NW1.png" alt="he_thong">
@@ -629,7 +630,7 @@
                                 </a>
                             </div>
 
-                            <div>
+                            <div rel="4">
                                 <a href="#an_ninh_mang">
                                     <div>
                                         <img src="./images/educationProgram/NW3.jpg" alt="an_ninh">

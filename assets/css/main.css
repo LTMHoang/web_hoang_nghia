@@ -451,7 +451,7 @@ a.info-teacher>img {
     background-color: rgba(191, 191, 191, 0.8);
     top: 30%;
     border-radius: 50%;
-    cursor: pointer;
+    cursor: pointer !important;
 }
 
 .prev {

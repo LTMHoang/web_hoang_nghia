@@ -9,21 +9,15 @@
 
 .Noidung{
     width: 80%;
-    margin: 0 auto;
-}
-body{
-    background: #fff
-}
-img{
-    width: 60%;
+    margin: 20px auto;
 }
 
-@media all and (max-width:320px)
-{
-    body{
-        background: #e7e7e7;
-    }
-    img{
-        width: 100%;    
+img{
+    width: 100%;
+}
+
+@media screen and (max-width: 500px) {
+    .Noidung {
+        width: 95%;
     }
 }
