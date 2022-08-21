@@ -8,9 +8,18 @@ html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#quickIcon {
+    width: 8%;
+}
+
+#quickMess {
+    width: 50%;
+    right: 2px;
+}
+
 #back-home {
-    bottom: 50px;
-    right: 50px;
+    bottom: 40px;
+    right: 20px;
 }
 
 /*CSS FOR HOME*/
