@@ -1,0 +1,17 @@
+.Tille{
+    text-align: justify;
+    color: red;
+}
+.img{
+    margin: 0 auto;
+    width: 80%;
+}
+body{
+    background: #fff;
+}
+@media all and(max-width: 800px)
+{
+    body{
+        background: #e7e7e7;
+    }
+}

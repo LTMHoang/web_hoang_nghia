@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tin Tức</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="./css/tablet.css"
+      media="screen and (max-width: 1000px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./css/mobile.css"
+      media="screen and (max-width: 500px)"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/logo/Logo-DH-Mo-TPHCM-OU (1).webp"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/home.js"></script>
+    <link rel="stylesheet" href="./css/New.css" />
+  </head>
+  <body>
+    <div class="quickSp">
+      <div id="quickIcon">
+        <img src="./images/icon/facebook-messenger-icon-1.png" alt="mess" />
+      </div>
+      <div id="quickMess">
+        <div id="quickClose"><i class="fa-solid fa-xmark"></i></div>
+        <h2>Hỗ trợ nhanh</h2>
+      </div>
+    </div>
+
+    <a href="javascript:;"
+      ><div id="back-home">
+        <img src="./images/logo/icon-256x256.png" alt="up" /></div
+    ></a>
+
+    <header class="header">
+      <div class="header_pc flex">
+        <div class="header-left">
+          <a href="../index.html"
+            ><img src="./images/logo/Logo (1).png" alt="OU"
+          /></a>
+        </div>
+        <div class="header-right">
+          <h1>trung tâm tin học</h1>
+        </div>
+      </div>
+
+      <div class="header_tablet flex">
+        <div class="header_tablet-logoname flex">
+          <a href="../index.html"
+            ><img src="./images/logo/Logo (1).png" alt="OU"
+          /></a>
+          <h1>
+            trung tâm <br />
+            tin học
+          </h1>
+        </div>
+
+        <div class="header_tablet-navigation flex">
+          <label class="nav_bars-btn" for="nav_tablet-input"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+          <input
+            hidden
+            type="checkbox"
+            name=""
+            class="nav_input"
+            id="nav_tablet-input"
+          />
+          <label for="nav_tablet-input" class="nav_overplay"></label>
+          <div class="nav_tablet">
+            <label for="nav_tablet-input" class="nav_tablet-close"
+              ><i class="fa-solid fa-xmark"></i
+            ></label>
+            <ul class="nav_tablet-list">
+              <li>
+                <a class="nav_tablet-link" href="../index.html"
+                  ><i class="fa-solid fa-house"></i> Trang chủ</a
+                >
+              </li>
+              <li>
+                <a class="nav_tablet-link" href="./calendar.html"
+                  >Lịch khai giảng</a
+                >
+              </li>
+              <li>
+                <a class="nav_tablet-link" href="./edu.html"
+                  >Chương trình đào tạo</a
+                >
+              </li>
+              <li>
+                <a class="nav_tablet-link" href="./services.html">Dịch vụ</a>
+              </li>
+              <li>
+                <a class="nav_tablet-link" href="javascript:;">Tin tức</a>
+              </li>
+              <li>
+                <a class="nav_tablet-link" href="./paymentGuide.html"
+                  >Hướng dẫn thanh toán</a
+                >
+              </li>
+              <li>
+                <a class="nav_tablet-link" href="./contact.html">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header_tablet-search">
+            <form action="">
+              <input type="text" placeholder="Tìm kiếm" />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="header_mobile flex">
+        <div class="header_mobile-logoname flex">
+          <a href="../index.html"
+            ><img src="./images/logo/logo-white.png" alt="OU"
+          /></a>
+          <h1>trung tâm tin học</h1>
+        </div>
+
+        <div class="header_mobile-navigation flex">
+          <label class="nav_bars-btn" for="nav_mobile-input"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+          <input
+            hidden
+            type="checkbox"
+            name=""
+            class="nav_input"
+            id="nav_mobile-input"
+          />
+          <label for="nav_mobile-input" class="nav_overplay"></label>
+          <div class="nav_mobile">
+            <label for="nav_mobile-input" class="nav_mobile-close"
+              ><i class="fa-solid fa-xmark"></i
+            ></label>
+            <ul class="nav_mobile-list">
+              <li>
+                <a class="nav_mobile-link" href="../index.html"
+                  ><i class="fa-solid fa-house"></i> Trang chủ</a
+                >
+              </li>
+              <li>
+                <a class="nav_mobile-link" href="./calendar.html"
+                  >Lịch khai giảng</a
+                >
+              </li>
+              <li>
+                <a class="nav_mobile-link" href="./edu.html"
+                  >Chương trình đào tạo</a
+                >
+              </li>
+              <li>
+                <a class="nav_mobile-link" href="./services.html">Dịch vụ</a>
+              </li>
+              <li>
+                <a class="nav_mobile-link" href="javascript:;">Tin tức</a>
+              </li>
+              <li>
+                <a class="nav_mobile-link" href="./paymentGuide.html"
+                  >Hướng dẫn thanh toán</a
+                >
+              </li>
+              <li>
+                <a class="nav_mobile-link" href="./contact.html">Liên hệ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header_mobile-search">
+            <form action="">
+              <input type="text" placeholder="Tìm kiếm" />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav>
+      <ul class="flex menu">
+        <li>
+          <a href="../index.html" id="home"
+            ><i class="fa-solid fa-house"></i
+          ></a>
+        </li>
+        <li class="sub">
+          <a href="./calendar.html"
+            >Lịch khai giảng <i class="fa-solid fa-caret-down"></i
+          ></a>
+          <ul class="menu subcontent">
+            <li>
+              <a href="./calendar.html#thiet_ke_website">Thiết kế Website</a>
+            </li>
+            <li>
+              <a href="./calendar.html#lap_trinh_di_dong">Lập trình di động</a>
+            </li>
+            <li>
+              <a href="./calendar.html#tin_hoc_van_phong">Tin học văn phòng</a>
+            </li>
+            <li>
+              <a href="./calendar.html#tin_hoc_van_phong_mos"
+                >Tin học văn phòng (MOS)</a
+              >
+            </li>
+            <li><a href="./calendar.html#mang_may_tinh">Mạng máy tính</a></li>
+          </ul>
+        </li>
+        <li class="sub">
+          <a href="./edu.html"
+            >Chương trình đào tạo <i class="fa-solid fa-caret-down"></i
+          ></a>
+          <ul class="menu subcontent">
+            <li><a href="./edu.html#thiet_ke_website">Thiết kế Website</a></li>
+            <li>
+              <a href="./edu.html#lap_trinh_di_dong">Lập trình di động</a>
+            </li>
+            <li>
+              <a href="./edu.html#tin_hoc_van_phong">Tin học văn phòng</a>
+            </li>
+            <li>
+              <a href="./edu.html#tin_hoc_van_phong_mos"
+                >Tin học văn phòng (MOS)</a
+              >
+            </li>
+            <li><a href="./edu.html#mang_may_tinh">Mạng máy tính</a></li>
+          </ul>
+        </li>
+        <li><a href="./services.html">Dịch vụ</a></li>
+        <li><a href="javascript:;">Tin tức</a></li>
+        <li><a href="./paymentGuide.html">Hướng dẫn thanh toán</a></li>
+        <li><a href="./contact.html">Liên hệ</a></li>
+        <li id="nav_find" class="flex">
+          <form action="">
+            <input type="text" placeholder="Tìm kiếm" />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
+        </li>
+      </ul>
+    </nav>
+    <section>
+      <div class="news">
+        <p class="head-title">Tin tức</p>
+        <div class="notifications flex">
+          <a href="javascript:;" class="main_notification">
+            <div>
+              <div>
+                <img src="./images/notification/CNTT.jpg" alt="" />
+                <p>Giới thiệu về khoa phụ trách</p>
+              </div>
+            </div>
+          </a>
+          <div class="clone_notification flex">
+            <a href="javascript:;" class="notification">
+              <div>
+                <div>
+                  <img src="./images/notification/another.jpg" alt="" />
+                  <p>Thông báo</p>
+                </div>
+              </div>
+            </a>
+            <a href="javascript:;" class="notification">
+              <div>
+                <div>
+                  <img src="./images/notification/another.jpg" alt="" />
+                  <p>Thông báo</p>
+                </div>
+              </div>
+            </a>
+            <a href="javascript:;" class="notification">
+              <div>
+                <div>
+                  <img src="./images/notification/another.jpg" alt="" />
+                  <p>Thông báo</p>
+                </div>
+              </div>
+            </a>
+            <a href="javascript:;" class="notification">
+              <div>
+                <div>
+                  <img src="./images/notification/another.jpg" alt="" />
+                  <p>Thông báo</p>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex img">
+        <div>
+          <p>
+            <img
+              alt=""
+              src="./images/News/lich-khai-giang-2022.png"
+              style="width: 75%; height: 75%"
+            />
+          </p>
+        </div>
+        <div>
+          <h1 class="Tille">[Thông báo] Lịch Nghỉ Tết 2022</h1>
+          <div style="margin: 10px 0">
+            <p>18-08-2022</p>
+          </div>
+          <p>Kính chào Quý Thầy Cô và các bạn Học viên Trung Tâm Tin Học,</p>
+          <p>
+            Nhằm giúp quý Thầy Cô và các bạn chủ động hơn trong việc sắp xếp
+            thời gian, Trung Tâm xin thông báo lịch nghỉ Tết Dương Lịch và Tết
+            Âm Lịch 2022 như sau:
+          </p>
+          <p>
+            <strong>Lịch nghỉ Tết Dương Lịch:</strong>
+          </p>
+          <ul>
+            <li>
+              Tất cả các lớp được nghỉ 1 ngày -
+              <strong>Thứ 7 (01/01/2022)</strong>
+            </li>
+            <li>
+              Các lớp học lại bình thường từ <strong>CN (02/01/2022)</strong>
+            </li>
+          </ul>
+          <p>
+            <strong>Lịch nghỉ Tết Âm Lịch:</strong>
+          </p>
+          <ul>
+            <li>
+              Tất cả các lớp sẽ kết thúc trễ nhất vào<strong>
+                CN (23/01/2022- tức 21/12 Âm lịch)</strong
+              >
+            </li>
+            <li>
+              Các lớp bắt đầu học trở lại từ <strong>Thứ 2 (21/02/2022)</strong>
+            </li>
+            <li>
+              Trung Tâm mở cửa làm việc từ<strong>
+                Thứ 2 (07/02/2022- tức Mùng 7 Tết)</strong
+              >
+            </li>
+          </ul>
+          <p>
+            Kính chúc Quý Thầy Cô và các bạn Học viên một năm mới
+            <strong>An nhiên, nhiều Sức khỏe và Thành công</strong>!
+          </p>
+        </div>
+      </div>
+      <div style="margin-top: 10px">&nbsp;</div>
+      <div class="flex img">
+        <div>
+          <p>
+            <img
+              alt=""
+              src="./images/News/nghi_le.jpg"
+              style="width: 150%; height: 150%"
+            />
+          </p>
+        </div>
+        <div style="margin-left: 330px">
+          <h1 class="Tille">[Thông báo] Nghỉ Lễ Quốc Khánh 02/09/2022</h1>
+          <div style="margin: 10px 0">
+            <p>18-08-2022</p>
+          </div>
+          <p>
+            Kính chào Quý Thầy, Cô và toàn thể các bạn Học viên Trung Tâm Tin
+            Học ĐH MỞ Tp.HCM
+          </p>
+          <p>
+            Nhằm giúp Quý Thầy, Cô và các bạn Học viên có thể chủ động sắp xếp
+            công việc trong thời gian sắp tới, Trung Tâm Tin Học xin thông báo
+            lịch nghỉ lễ Quốc Khánh 2/9 như sau:
+          </p>
+          <ul>
+            <li>
+              Các lớp học sẽ nghỉ lễ vào&nbsp;<strong
+                >Thứ 5 (01/09/2022) và Thứ 6 (02/09/2022)</strong
+              >
+            </li>
+            <li>
+              Trung Tâm bắt đầu làm việc lại vào
+              lúc&nbsp;<strong>7h30</strong>&nbsp;-&nbsp;<strong
+                >Thứ 7&nbsp;(03/09/2020)</strong
+              >
+            </li>
+          </ul>
+          <p>
+            Chúc Quý Thầy, Cô và toàn thể các bạn Học viên có một kỳ nghỉ lễ vui
+            vẻ, hạnh phúc bên gia đình và người thân.
+          </p>
+          <p>&nbsp;</p>
+          <p>Trân trọng kính chào.</p>
+          <p>
+            <strong>TRUNG TÂM TIN HỌC ĐH MỞ TP.HCM</strong>
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div style="margin-top: 10px">&nbsp;</div>
+      <div class="flex img">
+        <div>
+          <p>
+            <img
+              alt=""
+              src="./images/News/thong-bao-nghi-le-gio-to-hung-vuong.jpg"
+              style="width: 150%; height: 150%"
+            />
+          </p>
+        </div>
+        <div style="margin-left: 325px">
+          <h1 class="Tille">
+            THÔNG BÁO NGHỈ LỄ GIỖ TỔ HÙNG VƯƠNG &amp; ĐẠI LỄ 30/04 - 01/05/2022
+          </h1>
+          <div style="margin: 10px 0">
+            <p>25-03-2022</p>
+          </div>
+          <p>
+            <span style="font-size: 16px"
+              >Kính chào Quý Thầy, Cô và toàn thể các bạn Học viên Trung Tâm Tin
+              Học ĐH MỞ.</span
+            >
+          </p>
+          <p>
+            <span style="font-size: 16px"
+              >Nhằm giúp Quý Thầy, Cô và toàn thể các bạn Học viên có thể chủ
+              động sắp xếp công việc trong thời gian sắp tới, Trung Tâm Tin Học
+              xin thông báo lịch nghỉ lễ Giỗ Tổ Hùng Vương và Đại lễ Giải Phóng
+              Miền Nam 30/04, Quốc Tế Lao Động 01/05 như sau:</span
+            >
+          </p>
+          <p>
+            <strong
+              ><span style="color: #ff0000"
+                ><span style="font-size: 16px"
+                  >Lễ giỗ Tổ Hùng Vương:</span
+                ></span
+              ></strong
+            >
+          </p>
+          <ul>
+            <li>
+              <p>
+                <span style="font-size: 16px"
+                  >Các lớp học sẽ nghỉ 02 ngày:
+                  <strong>Chủ Nhật (10/04/2022</strong>) &amp;
+                  <strong>Thứ Hai (11/04/2022)</strong></span
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <span style="font-size: 16px"
+                  >Các lớp học, Bộ phận Tư vấn ghi danh và văn phòng sẽ hoạt
+                  động lại vào ngày: <strong>Thứ Ba (12/04/2022)</strong></span
+                >
+              </p>
+            </li>
+          </ul>
+          <p>
+            <strong
+              ><span style="color: #ff0000"
+                ><span style="font-size: 16px"
+                  >Đại lễ 30/04 &amp; 01/05:</span
+                ></span
+              ></strong
+            >
+          </p>
+          <ul>
+            <li>
+              <p>
+                <span style="font-size: 16px"
+                  >Các lớp học sẽ nghỉ 04 ngày: từ&nbsp;<strong
+                    >Thứ Bảy (30/04/2022) </strong
+                  >đến hết&nbsp;<strong>Thứ Ba (03/05/2022)</strong>&nbsp;</span
+                >
+              </p>
+            </li>
+            <li>
+              <p>
+                <span style="font-size: 16px"
+                  >Các lớp học, Bộ phận Tư vấn ghi danh và văn phòng sẽ hoạt
+                  động lại vào ngày: <strong>Thứ Tư (04/05/2022)</strong></span
+                >
+              </p>
+            </li>
+          </ul>
+          <p>&nbsp;</p>
+          <p>
+            <span style="font-size: 16px"
+              >Chúc Quý Thầy, Cô và toàn thể các bạn Học viên có những ngày lễ
+              thật vui, hạnh phúc bên gia đình và người thân.</span
+            >
+          </p>
+          <p>
+            <span style="font-size: 16px">Trân trọng kính chào.</span>
+          </p>
+          <p>
+            <strong
+              ><span style="font-size: 16px"
+                >TRUNG TÂM TIN HỌC ĐH MỞ</span
+              ></strong
+            >
+          </p>
+          <p>&nbsp;</p>
+        </div>
+      </div>
+      <div class="flex img">
+        <div>
+            <p>
+            <img
+              alt=""
+              src="./images/News/tuyen-dung-nhan-vien-it.jpg"
+              style="width: 64%; height: 64%"
+            />
+          </p>
+        </div>
+        <div style="margin-left: -130px;">
+          <h1 class="Tille">
+            [Thông báo] Tuyển dụng CTV Giảng dạy các lớp Tin học Ứng dụng
+          </h1>
+          <div>
+            <div style="margin: 10px 0">
+              <p>
+                1-1-2022
+              </p>
+            </div>
+            <div>
+              <strong>Số lượng tuyển dụng:</strong>
+            </div>
+            <ul>
+              <li>04 Giáo viên (CTV).</li>
+            </ul>
+            <p>&nbsp;</p>
+            <div>
+              <strong>Mô tả công việc:</strong>
+            </div>
+            <ul>
+              <li>
+                Đứng lớp giảng dạy khóa học Ứng dụng CNTT Cơ bản - Nâng cao
+                (giảng dạy theo đề cương, coi thi, chấm thi).
+              </li>
+              <li>Có thể tham gia dạy thêm các lớp Chuyên đề, MOS.</li>
+              <li>
+                Có khả năng tham gia xây dựng nội dung, chương trình đào tạo,
+                giáo trình bài giảng, ...
+              </li>
+              <li>Giảng dạy theo sự phân công của TTTH.</li>
+              <li>Thông tin cụ thể sẽ được trao đổi tại buổi phỏng vấn.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <div>
+              <strong>Điều kiện / Tiêu chuẩn:</strong>
+            </div>
+            <ul>
+              <li>
+                Trình độ chuyên môn: Tốt nghiệp Cao đẳng, Đại học chuyên ngành
+                CNTT.
+              </li>
+              <li>Ưu tiên cho các ứng viên đã có kinh nghiệm giảng dạy.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <div>
+              <strong>Hồ sơ dự tuyển: </strong>
+            </div>
+            <ul>
+              <li>01 đơn xin việc.</li>
+              <li>01 sơ yếu lý lịch.</li>
+              <li>
+                Bản sao công chứng Bằng Đại học và các Chứng chỉ liên quan.
+              </li>
+            </ul>
+            <p>*** Nộp Hồ sơ qua mail trước ngày 1/2/2022.</p>
+            <p>&nbsp;</p>
+            <div>
+              <strong>Quyền lợi:</strong>
+            </div>
+            <ul>
+              <li>
+                Thù lao giảng dạy theo lớp và những chế độ đãi ngộ khác vào các
+                dịp lễ, tết, ngày Nhà giáo Việt Nam,…
+              </li>
+            </ul>
+            <p>&nbsp;</p>
+            <div><strong>Thời gian làm việc</strong>:</div>
+            <ul>
+              <li>Ngoài giờ hành chính hoặc cuối tuần.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <div>
+              <strong>Địa điểm làm việc:</strong>
+            </div>
+            <ul>
+              <li>Tại các cơ sở thuộc Trung Tâm Tin Học ĐH MỞ.</li>
+            </ul>
+            <p>&nbsp;</p>
+            <div>
+              <strong>Hồ sơ gửi về:</strong>
+            </div>
+            <ul>
+              <li>TRUNG TÂM TIN HỌC ĐH MỞ</li>
+              <li>
+                Địa chỉ nộp Hồ sơ: XXX
+              </li>
+              <li>Email nộp Hồ sơ: XXX</li>
+            </ul>
+            <div style="text-align: right">
+              <strong>Ngành Tin học ứng dụng</strong>
+            </div>
+            <div style="text-align: right">
+              <strong>Trung Tâm Tin Học Mở</strong>
+            </div>
+            <p>&nbsp;</p>
+          </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_contact flex">
+        <div class="footer_contact-info">
+          <img src="./images/logo/Logo (1).png" alt="OU" />
+        </div>
+        <p>
+          Trường Đại học Mở thành phố Hồ Chí Minh đóng góp và nâng cao tri thức
+          cho cộng đồng bằng các phương thức linh hoạt và thuận tiện nhất.
+        </p>
+      </div>
+      <div class="footer_address flex">
+        <div class="footer_address-content">
+          <h1>thông tin chung</h1>
+          <p>Địa chỉ: 35 – 37 Hồ Hảo Hớn, Phường Cô Giang, Quận 1, TP. HCM.</p>
+          <p>Điện thoại: <span>028-38364748.</span></p>
+          <p>Fax: <span>028-39207639 hoặc 028-39207640.</span></p>
+          <p>E-mail: <a href="mailto: ou@ou.edu.vn">ou@ou.edu.vn.</a></p>
+          <div id="media">
+            <h3>Kết nối với chúng tôi</h3>
+            <a href="" target="_blank"><i class="fa-brands fa-google"></i></a>
+            <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.facebook.com/TruongDaiHocMo" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+        <div class="footer_address-content">
+          <h1>các cơ sở trực thuộc</h1>
+          <div id="detail">
+            <a href="https://ou.edu.vn/co-so-1/" target="_blank" class="flex">
+              <div><i class="fa-solid fa-location-dot"></i> Địa điểm 1:</div>
+              <div>97 Võ Văn Tần, P. Võ Thị Sáu, Q. 3, TP. Hồ Chí Minh.</div>
+            </a>
+            <br />
+            <a href="https://ou.edu.vn/co-so-2/" target="_blank" class="flex">
+              <div><i class="fa-solid fa-location-dot"></i> Địa điểm 2:</div>
+              <div>35-37 Hồ Hảo Hớn, P. Cô Giang, Q. 1 , TP. Hồ Chí Minh.</div>
+            </a>
+            <br />
+            <a href="https://ou.edu.vn/co-so-3/" target="_blank" class="flex">
+              <div><i class="fa-solid fa-location-dot"></i> Địa điểm 3:</div>
+              <div>371 Nguyễn Kiệm, P. 3, Q. Gò Vấp, TP. Hồ Chí Minh.</div>
+            </a>
+            <br />
+            <a href="https://ou.edu.vn/co-so-4/" target="_blank" class="flex">
+              <div><i class="fa-solid fa-location-dot"></i> Địa điểm 4:</div>
+              <div>02 Mai Thị Lựu, P. Đa Kao, Q. 1, TP. Hồ Chí Minh.</div>
+            </a>
+            <br />
+            <a href="https://ou.edu.vn/co-so-5/" target="_blank" class="flex">
+              <div><i class="fa-solid fa-location-dot"></i> Địa điểm 5:</div>
+              <div>
+                68 Lê Thị Trung, P. Phú Lợi, TP. Thủ Dầu Một, Tỉnh Bình Dương.
+              </div>
+            </a>
+            <br />
+            <a href="https://ou.edu.vn/co-so-6/" target="_blank" class="flex">
+              <div><i class="fa-solid fa-location-dot"></i> Địa điểm 6:</div>
+              <div>
+                Đường số 9, P. Long Bình Tân, TP. Biên Hòa, Tỉnh Đồng Nai.
+              </div>
+            </a>
+            <br />
+            <a href="https://ou.edu.vn/co-so-7/" target="_blank" class="flex">
+              <div><i class="fa-solid fa-location-dot"></i> Địa điểm 7:</div>
+              <div>
+                Số 04 đường Tân Định, P. Ninh Hiệp, Thị Xã Ninh Hòa, Tỉnh Khánh
+                Hòa.
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer_copyright">
+        <p>&copy; 2022 đại học mở - minh hoàng & kiến nghĩa</p>
+      </div>
+    </footer>
+  </body>
+</html>
