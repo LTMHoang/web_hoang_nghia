@@ -162,6 +162,7 @@ ul.menu>li:first-child {
     position: absolute;
     text-align: left !important;
     animation: arriveSub 0.7s 1;
+    z-index: 20;
 }
 
 .subcontent>li {
@@ -387,7 +388,7 @@ ul.menu>li.sub:hover .subcontent {
 }
 
 .notification {
-    width: 46%;
+    width: 50%;
 }
 
 .main_notification, .notification {
