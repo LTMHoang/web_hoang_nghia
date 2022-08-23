@@ -55,6 +55,13 @@ html {
     width: 100%;
 }
 
+#quickMess > input {
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
 #quickClose{
     position: absolute;
     top: 10px;
@@ -63,9 +70,25 @@ html {
     cursor: pointer;
 }
 
+#quick_detail {
+    font-size: calc(var(--sizeAll) + 5px);
+    padding: 20px;
+}
+
+#quick_detail > input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+#quick_detail > p {
+    margin-top: 10px;
+}
+
 @keyframes quickAni {
     0% {
-        transform: rotate(0deg);
+        transform: rotate(-20deg);
     }
 
     50% {
@@ -1120,5 +1143,5 @@ section.mobile {
 }
 
 .calendar_accept[disabled] {
-    cursor: not-allowed;
+    display: none;
 }

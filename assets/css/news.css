@@ -26,13 +26,12 @@
     padding: 30px 10px;
 }
 
-.new_img > img {
+.new_img img {
     width: 100%;
-    object-fit: cover;
 }
 
 .new_content {
-    font-size: var(--sizeAll);
+    font-size: 20px;
     margin-left: 20px;
     padding: 10px;
     overflow: auto;
@@ -42,7 +41,7 @@
     line-height: 40px;
 }
 
-.new_content > h2 {
+.new_content h2 {
     color: #ff0000;
 } 
 

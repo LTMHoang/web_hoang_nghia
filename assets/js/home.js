@@ -1,36 +1,4 @@
 $(document).ready(function() {
-    
-//Để làm scrollTop
-
-    $(window).scroll(function() {
-        if($(this).scrollTop() > 100){
-            $('#back-home').fadeIn();
-        } else{
-            $('#back-home').fadeOut();
-        }
-    });
-
-
-    $('#back-home').click(function() {
-        $('html, body').animate( {
-            scrollTop: 0
-        }, 1000);
-    });
-
-//Làm hỗ trợ nhanh
-    $('#quickIcon').click(function() {
-        $('#quickIcon').hide('slow');
-
-        $('#quickMess').css('transform', 'translateY(0)');
-        $('#quickMess').css('transition', 'transform 0.7s linear');
-    });   
-    
-    $('#quickClose').click(function() {
-        $('#quickIcon').show('slow');
-
-        $('#quickMess').css('transform', 'translateY(100%)');
-        $('#quickMess').css('transition', 'transform 0.7s linear');
-    });
 
 //Để làm slider teacher mobile
 
@@ -75,4 +43,47 @@ $(document).ready(function() {
             prevA.addClass('active').css('animation', 'sliderRtL 1.5s 1');
         }
     });
-});
+
+//Làm slider tự động
+    setInterval(function () {
+        let head = $('.slider-inner a:first-child');
+        let tail = $('.slider-inner a:last-child');
+
+        let current = $('.active');
+        let next = current.next();
+
+
+        if(current.attr('rel') == tail.attr('rel'))
+            {
+                current.removeClass('active');
+                next = head;
+                next.addClass('active').css('animation', 'sliderLtR 1.5s 1');
+            }
+
+        current.removeClass('active');
+        next.addClass('active').css('animation', 'sliderLtR 1.5s 1');
+
+        
+    }, 5000);   
+    
+    setInterval(function () {
+        let headT = $('.teacher_slider-inner a:first-child');
+        let tailT = $('.teacher_slider-inner a:last-child');
+
+        let currentT = $('.teacher_active');
+        let nextT = currentT.next();
+
+
+        if(currentT.attr('rel') == tailT.attr('rel'))
+            {
+                currentT.removeClass('teacher_active');
+                nextT = headT;
+                nextT.addClass('teacher_active').css('animation', 'sliderLtR 1.5s 1');
+            }
+
+        currentT.removeClass('teacher_active');
+        nextT.addClass('teacher_active').css('animation', 'sliderLtR 1.5s 1');
+
+        
+    }, 5000);   
+})
