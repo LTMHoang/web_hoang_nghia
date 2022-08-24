@@ -592,6 +592,7 @@ footer {
 .footer_contact>p {
     color: #fff;
     font-size: var(--sizeAll);
+    text-align: justify;
 }
 
 #media {
@@ -616,6 +617,7 @@ footer {
 .footer_address-content>p>a {
     color: #fdb913;
     text-decoration: none;
+    text-align: justify;
 }
 
 .footer_address-content {
@@ -631,15 +633,18 @@ footer {
 .footer_address-content>p {
     margin: 20px 0px;
     font-size: var(--sizeAll);
+    text-align: justify;
 }
 
 #detail>a {
     text-decoration: none;
     color: #fff;
+    text-align: justify;
 }
 
 #detail>a>div {
     display: inline;
+    text-align: justify;
 }
 
 #detail>a>div:first-child {
@@ -672,6 +677,7 @@ footer {
 .main-contact {
     width: 80%;
     margin: 20px auto;
+    text-align: justify;
 }
 
 .capi-bold {
@@ -766,6 +772,7 @@ footer {
     margin: 20px auto;
     font-size: var(--sizeAll);
     line-height: 40px;
+    text-align: justify;
 }
 
 .paymentG>p:last-child {
@@ -1143,5 +1150,5 @@ section.mobile {
 }
 
 .calendar_accept[disabled] {
-    display: none;
+    cursor: not-allowed;
 }
